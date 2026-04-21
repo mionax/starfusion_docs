@@ -14,77 +14,117 @@
     "dark": "#93C5FD"
   },
   "navigation": {
-    "dropdowns": [
+    "products": [
       {
-        "dropdown": "Untitled Dropdown",
-        "hidden": true,
-        "versions": [
+        "product": "Draftio- AI无限画布",
+        "pages": [
           {
-            "version": "V1.0",
-            "hidden": true,
-            "groups": [
+            "group": "开始使用",
+            "pages": [
+              "index",
+              "getting-started/overview",
+              "getting-started/quickstart"
+            ]
+          },
+          {
+            "group": "画布界面介绍",
+            "pages": [
               {
-                "group": "开始使用",
-                "pages": [
-                  "index",
-                  "getting-started/overview",
-                  "getting-started/quickstart"
-                ]
-              },
-              {
-                "group": "Draftio画布",
+                "group": "画布概览",
                 "pages": [
                   "canvas/overview",
-                  "canvas/preferences",
-                  "canvas/shortcuts",
                   "canvas/top-bar",
+                  "file-5",
                   "canvas/toolbar",
-                  "canvas/prompt-input",
-                  {
-                    "group": "自由画板",
-                    "pages": [
-                      "canvas/image-cards",
-                      "canvas/video-cards",
-                      "canvas/image-editing",
-                      "canvas/advanced-image-editing"
-                    ]
-                  },
-                  {
-                    "group": "工作流",
-                    "pages": [
-                      "file"
-                    ]
-                  }
+                  "canvas/prompt-input"
                 ]
               },
               {
-                "group": "AI模型",
+                "group": "节点",
                 "pages": [
-                  "models/image-models",
-                  "models/video-models"
+                  "canvas/image-cards",
+                  "canvas/video-cards",
+                  "canvas/file-3"
                 ]
               },
               {
-                "group": "电商工具",
+                "group": "快捷键和偏好设置",
                 "pages": [
-                  "ecommerce/detail-page-generator"
-                ]
-              },
-              {
-                "group": "计费与账户",
-                "pages": [
-                  "billing/credits-and-pricing",
-                  "billing/subscription-and-credits-faq"
-                ]
-              },
-              {
-                "group": "支持",
-                "pages": [
-                  "support/faq"
+                  "canvas/shortcuts",
+                  "canvas/preferences"
                 ]
               }
             ]
+          },
+          {
+            "group": "基础功能操作指南",
+            "pages": [
+              {
+                "group": "自由画板 - 适合新手使用",
+                "pages": [
+                  "canvas/image-editing",
+                  "canvas/file",
+                  "canvas/file-1",
+                  "canvas/file-2"
+                ]
+              },
+              {
+                "group": "工作流 - 适合进阶使用",
+                "pages": [
+                  "file",
+                  "file-1",
+                  "file-2",
+                  "file-3",
+                  "file-4"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "高级功能操作指南",
+            "pages": [
+              {
+                "group": "图像卡片",
+                "pages": [
+                  "canvas/file-4",
+                  "canvas/file-6",
+                  "canvas/file-5",
+                  "canvas/9",
+                  "canvas/file-7",
+                  "canvas/advanced-image-editing"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "AI模型",
+            "pages": [
+              "models/image-models",
+              "models/video-models"
+            ]
+          },
+          {
+            "group": "计费与账户",
+            "pages": [
+              "billing/credits-and-pricing",
+              "billing/file",
+              "billing/file-1",
+              "billing/subscription-and-credits-faq"
+            ]
+          },
+          {
+            "group": "支持",
+            "pages": [
+              "support/faq"
+            ]
           }
+        ]
+      },
+      {
+        "product": "PicAI-电商专用工具",
+        "hidden": true,
+        "pages": [
+          "ecommerce/detail-page-generator"
         ]
       }
     ]
