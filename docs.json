@@ -1,0 +1,81 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "name": "Draftio Docs",
+  "favicon": "/images/draftio-docs-icon.svg",
+  "logo": {
+    "light": "/images/draftio-docs-icon.svg",
+    "dark": "/images/draftio-docs-icon.svg",
+    "href": "https://draftio.cn"
+  },
+  "theme": "mint",
+  "colors": {
+    "primary": "#F5F5F4",
+    "light": "#2563EB",
+    "dark": "#93C5FD"
+  },
+  "navigation": {
+    "groups": [
+      {
+        "group": "开始使用",
+        "pages": [
+          "index",
+          "getting-started/overview",
+          "getting-started/quickstart"
+        ]
+      },
+      {
+        "group": "创作画布",
+        "pages": [
+          "canvas/overview",
+          "canvas/top-bar",
+          "canvas/toolbar",
+          "canvas/prompt-input",
+          {
+            "group": "自由画板",
+            "pages": [
+              "canvas/image-cards",
+              "canvas/video-cards",
+              "canvas/image-editing",
+              "canvas/advanced-image-editing"
+            ]
+          },
+          "canvas/file",
+          {
+            "group": "工作流",
+            "pages": [
+              "file"
+            ]
+          },
+          "canvas/shortcuts",
+          "canvas/preferences"
+        ]
+      },
+      {
+        "group": "AI 能力",
+        "pages": [
+          "models/image-models",
+          "models/video-models"
+        ]
+      },
+      {
+        "group": "电商工具",
+        "pages": [
+          "ecommerce/detail-page-generator"
+        ]
+      },
+      {
+        "group": "计费与账户",
+        "pages": [
+          "billing/credits-and-pricing",
+          "billing/subscription-and-credits-faq"
+        ]
+      },
+      {
+        "group": "支持",
+        "pages": [
+          "support/faq"
+        ]
+      }
+    ]
+  }
+}
