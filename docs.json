@@ -31,6 +31,7 @@
             "pages": [
               {
                 "group": "画布概览",
+                "expanded": true,
                 "pages": [
                   "canvas/overview",
                   "canvas/top-bar",
@@ -82,12 +83,13 @@
           },
           {
             "group": "高级功能操作指南",
+            "expanded": true,
             "pages": [
               {
                 "group": "图像卡片",
                 "pages": [
                   "canvas/file-4",
-                  "canvas/file-6",
+                  "canvas/cutout",
                   "canvas/file-5",
                   "canvas/9",
                   "canvas/file-7",
