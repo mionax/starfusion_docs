@@ -14,68 +14,80 @@
     "dark": "#93C5FD"
   },
   "navigation": {
-    "groups": [
+    "dropdowns": [
       {
-        "group": "开始使用",
-        "pages": [
-          "index",
-          "getting-started/overview",
-          "getting-started/quickstart"
-        ]
-      },
-      {
-        "group": "创作画布",
-        "pages": [
-          "canvas/overview",
-          "canvas/top-bar",
-          "canvas/toolbar",
-          "canvas/prompt-input",
+        "dropdown": "Untitled Dropdown",
+        "hidden": true,
+        "versions": [
           {
-            "group": "自由画板",
-            "pages": [
-              "canvas/image-cards",
-              "canvas/video-cards",
-              "canvas/image-editing",
-              "canvas/advanced-image-editing"
+            "version": "V1.0",
+            "hidden": true,
+            "groups": [
+              {
+                "group": "开始使用",
+                "pages": [
+                  "index",
+                  "getting-started/overview",
+                  "getting-started/quickstart"
+                ]
+              },
+              {
+                "group": "Draftio画布",
+                "pages": [
+                  "canvas/overview",
+                  "canvas/preferences",
+                  "canvas/shortcuts",
+                  "canvas/top-bar",
+                  "canvas/toolbar",
+                  "canvas/prompt-input",
+                  {
+                    "group": "自由画板",
+                    "pages": [
+                      "canvas/image-cards",
+                      "canvas/video-cards",
+                      "canvas/image-editing",
+                      "canvas/advanced-image-editing"
+                    ]
+                  },
+                  {
+                    "group": "工作流",
+                    "pages": [
+                      "file"
+                    ]
+                  }
+                ]
+              },
+              {
+                "group": "AI模型",
+                "pages": [
+                  "models/image-models",
+                  "models/video-models"
+                ]
+              },
+              {
+                "group": "电商工具",
+                "pages": [
+                  "ecommerce/detail-page-generator"
+                ]
+              },
+              {
+                "group": "计费与账户",
+                "pages": [
+                  "billing/credits-and-pricing",
+                  "billing/subscription-and-credits-faq"
+                ]
+              },
+              {
+                "group": "支持",
+                "pages": [
+                  "support/faq"
+                ]
+              }
             ]
-          },
-          "canvas/file",
-          {
-            "group": "工作流",
-            "pages": [
-              "file"
-            ]
-          },
-          "canvas/shortcuts",
-          "canvas/preferences"
-        ]
-      },
-      {
-        "group": "AI 能力",
-        "pages": [
-          "models/image-models",
-          "models/video-models"
-        ]
-      },
-      {
-        "group": "电商工具",
-        "pages": [
-          "ecommerce/detail-page-generator"
-        ]
-      },
-      {
-        "group": "计费与账户",
-        "pages": [
-          "billing/credits-and-pricing",
-          "billing/subscription-and-credits-faq"
-        ]
-      },
-      {
-        "group": "支持",
-        "pages": [
-          "support/faq"
+          }
         ]
       }
     ]
-  }
+  },
+  "description": "Draftio的操作文档"
 }
