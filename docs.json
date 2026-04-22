@@ -22,7 +22,7 @@
             "group": "开始使用",
             "pages": [
               "index",
-              "getting-started/overview",
+              "getting-started/untitled-page",
               "getting-started/quickstart"
             ]
           },
@@ -93,7 +93,8 @@
                   "canvas/file-5",
                   "canvas/9",
                   "canvas/file-7",
-                  "canvas/advanced-image-editing"
+                  "canvas/file-6",
+                  "canvas/file-8"
                 ]
               }
             ]
